@@ -1,0 +1,40 @@
+body{
+    background-image: url(/GloriaPostrera_proyecto/recursos/adoracion.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100em;  
+    background-repeat: no-repeat;
+    
+
+
+}
+.login{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10em;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 10em;
+    background-color: rgb(178, 179, 185);
+
+    border-radius: 3em;
+    opacity: 65%;
+
+}
+
+
+.usuario-login{
+   background-color: saddlebrown;
+}
+#name{
+    border-radius: 5em;
+}
+#password{
+    border-radius: 5em;
+}
+.usuario{
+    margin-left: 45%;
+    
+    width: 10em;
+    border-radius: 200px;
+}

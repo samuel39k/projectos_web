@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #74c69d;
+    padding: 90px 20px 0 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu {
+    list-style-type: none; /*la etiqueta list-style-type:nome para quitar la viñeta */
+    margin-top: -1%; /*margin y padding para eliminar la configuracion del navegador */
+    margin-left: -2%;
+    padding: 0% ;
+    width: 100%;
+    
+    max-width: 1000%;
+    text-align: right; /*para centrar la barra*/
+    background-color:rgba(255, 255, 255, 0.87);
+    /*para fijar la barra*/
+    position: fixed;
+    top: 0%;
+    width: 101%;
+    }
+
+    /*logo config*/
+    .logo-image{
+        width: 45px;
+        height: 10px;
+        border-radius: 200%;
+        margin-top: 8;
+    }
+    img{
+        border-radius: 90%;
+        width: 100px;
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+
+    li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    border: 1px #bbb;
+    text-align: center;
+    }
+    li{
+    display: inline-block;
+    text-align: center;
+      
+}
+li a:hover {
+    background-color: rgb(151, 142, 142);
+}
+
+   
+
+
+
